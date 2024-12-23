@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Type Together",
+  title: "TypeTogether",
   description: "Collaborative Text Editor",
 };
 
