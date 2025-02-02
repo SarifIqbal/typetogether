@@ -9,6 +9,7 @@ import TableHeader from "@tiptap/extension-table-header"
 import TableRow from "@tiptap/extension-table-row"
 import Underline from "@tiptap/extension-underline"
 import Image from "@tiptap/extension-image"
+import FontFamily from "@tiptap/extension-font-family"
 import ImageResize from "tiptap-extension-resize-image";
 import StarterKit from "@tiptap/starter-kit"
 import { useEditorStore } from "@/store/use-editor-store";
