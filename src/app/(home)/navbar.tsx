@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { SearchInput } from "./search-input";
 
 export const Navbar = () => {
     return (
@@ -10,6 +11,8 @@ export const Navbar = () => {
                 </Link>
                 <h3 className="text-xl">TypeTogether</h3>
             </div>
+            <SearchInput/>
+            <div/>
         </nav>
     );
 };

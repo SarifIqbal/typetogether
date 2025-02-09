@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 // import localFont from "next/font/local";
+
+import { NuqsAdapter } from "nuqs/adapters/next/app";
+
 import "./globals.css";
 
 const inter = Inter({
@@ -34,7 +37,9 @@ export default function RootLayout({
         className={inter.className}
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <NuqsAdapter>
+            {children}
+        </NuqsAdapter>
       </body>
     </html>
   );
