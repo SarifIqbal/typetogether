@@ -54,7 +54,7 @@ export const Navbar = () => {
     };
 
     return (
-        <nav className="flex items-center justify-between">
+        <nav className="flex items-center justify-between bg-white">
             <div className="flex gap-2 items-center">
                 <Link href="/">
                     <Image src="/logo.svg" alt="Logo" width={36} height={36}/>
