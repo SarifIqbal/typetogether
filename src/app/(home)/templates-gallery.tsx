@@ -18,10 +18,10 @@ export const TemplatesGallery = () => {
         setIsCreating(true);
         create({ title, initialContent })
             .catch(() => toast.error("Something went wrong"))
-            .then(() => toast.success("Document created"))
             .then((documentId) => {
                 router.push(`/documents/${documentId}`);
             })
+            .then(() => toast.success("Document created"))
             .finally(() => {
                 setIsCreating(false);
             });
