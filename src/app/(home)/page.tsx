@@ -24,6 +24,11 @@ const Home = () => {
                     status = {status}
                 />
             </div>
+            <div>
+                <h2 className="flex items-center justify-center text-xl font-semibold">
+                    made with ❤️ by <a href="https://github.com/sarifiqbal" target="_blank" rel="noopener noreference" className="text-blue-500">&nbsp;Sarif Iqbal</a>
+                </h2>
+            </div>
         </div>
     );
 }
